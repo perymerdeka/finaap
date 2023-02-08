@@ -176,3 +176,4 @@ entire idea folder.
 temp/
 .vscode/
 db.sqlite3
+migrations/
