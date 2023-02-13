@@ -17,4 +17,13 @@ class CategorySerializer(ModelSerializer):
 class TransactionSerializer(ModelSerializer):
     class Meta:
         model = TransactionModel
-        fields = "__all__"
+        # fields = '__all__'
+        exclude = ['id']
+        # fields = (
+        #     "id",
+        #     "amount",
+        #     "currency",
+        #     "date",
+        #     "description",
+        #     "category",
+        # )
