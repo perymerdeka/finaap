@@ -14,6 +14,8 @@ drf-spectacular = "^0.25.1"
 scrapy = "^2.8.0"
 scrapyd = "^1.4.1"
 scrapy-djangoitem = "^1.1.1"
+httpx = "^0.23.3"
+beautifulsoup4 = "^4.11.2"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.1.0"

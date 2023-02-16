@@ -1,5 +1,5 @@
 
-from rest_framework.serializers import ModelSerializer
+from rest_framework.serializers import ModelSerializer, Serializer
 
 from apps.bank.models import CurrencyModel, CategoryModel, TransactionModel
 
