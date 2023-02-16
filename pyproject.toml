@@ -11,6 +11,9 @@ python = "^3.8"
 Django = "^4.1.6"
 djangorestframework = "^3.14.0"
 drf-spectacular = "^0.25.1"
+scrapy = "^2.8.0"
+scrapyd = "^1.4.1"
+scrapy-djangoitem = "^1.1.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.1.0"
